@@ -1,12 +1,21 @@
-# React + Vite
+# Buy Now Shoe UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Context
 
-Currently, two official plugins are available:
+I followed a tutorial to build this project as part of enhancing my skills in Tailwind CSS.
+Design is primarly opmitized for desktop view.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Learning Outcomes
 
-## Expanding the ESLint configuration
+- **Absolute Positioning**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Background Gradients**
+
+- **SVG Integration & Styling**: Applying custom styling - use of fill properties and editing viewBox attributes.
+
+- **Custom Tailwind Properties**: Setting up and using custom properties in Tailwind v4 to maintain consistent theming across the application with custom colors like `theme-blue` and `theme-pink`
+
+## Tech Stack
+
+**Frontend:** React.js, Tailwind CSS  
+**Tooling:** Vite, Prettier
