@@ -1,13 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
+import Size from "./Size";
+import Colors from "./Colors";
 
 const Filters = () => {
   return (
     <div>
-      <div className="inner flex text-xl text-gray-600">
-        <div className="size">
-          <div className="flex"></div>
-        </div>
-      </div>
+      <Size />
+      <Colors />
     </div>
   );
 };
