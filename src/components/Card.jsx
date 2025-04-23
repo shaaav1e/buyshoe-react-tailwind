@@ -39,7 +39,7 @@ const Card = () => {
               </div>
               {/* Shoe */}
               <div className="shoe w-96 absolute -bottom-145 left-0">
-                <img src="/public/nike-nobg.webp" alt="Nike-Shoes" />
+                <img src="/nike-nobg.webp" alt="Nike-Shoes" />{" "}
                 <div className="plus w-10 h-10 rounded-full bg-theme-pink text-white absolute top-4 left-26 cursor-pointer transform hover:scale-110 transition-all duration-500">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
