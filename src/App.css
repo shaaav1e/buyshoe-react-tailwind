@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=PT+Sans:wght@400;700&display=swap');
+
+@import "tailwindcss";
+@theme
+{
+  --color-theme-blue: #5515ef;
+  --color-theme-pink: #eb589e;
+  --color-blue-dark: #eb589e;
+  --shadow-3xl: 0 35px 35px rgba(0, 0, 0, 3); 
+  /* 21:37 */
+  /* --text-18: 18rem; */
+  --font-open-sans: 'Open Sans', sans-serif;
+  --font-pt-sans: 'PT Sans', sans-serif;
+}
+body
+{
+  font-family: var(--font-open-sans);
+  
+}
