@@ -17,7 +17,7 @@ const Colors = () => {
   return (
     <div>
       <div className="text-gray-700 font-bold mt-5 mb-2">Colors</div>
-      <div className="flex space-x-3">
+      <div className="flex space-x-10">
         {color_options.map((colorOption) => (
           <div
             key={colorOption.id}
